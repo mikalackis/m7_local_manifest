@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="CyanogenMod/android_device_htc_m7-common" path="device/htc/m7-common" remote="github" />
+  <project name="CyanogenMod/android_device_htc_msm8960-common" path="device/htc/msm8960-common" remote="github" />
+  <project name="CyanogenMod/android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="github" />
+  <!--<project name="NOSP-LP/android_kernel_htc_msm8960" path="kernel/htc/msm8960" remote="github" revision="lp5.1" />-->
+  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" />
+
+  <!-- dev -->
+ <remove-project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
+      <project name="mikalackis/android_frameworks_base" path="frameworks/base" remote="github" revision="dev" />
+
+<remove-project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
+<project name="mikalackis/android_packages_apps_CMAccount" path="packages/apps/CMAccount" remote="github" revision="dev" />
+
+ <project name="mikalackis/android_device_htc_m7" path="device/htc/m7" remote="github" revision="dev"/>
+</manifest>
